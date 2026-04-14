@@ -31,10 +31,11 @@
   <h2>Request a Service</h2>
 
   <form id="leadForm">
-    <input type="text" placeholder="Full Name" required>
-    <input type="text" placeholder="Phone Number" required>
+    <input type="text" id="name" placeholder="Full Name" required>
+    <input type="tel" placeholder="Phone Number" pattern="[0-9]{10}" required>
 
     <select>
+      <option>Select Service..</option>
       <option>Form Filling</option>
       <option>RTO Services</option>
       <option>Air Ticket</option>
@@ -48,7 +49,7 @@
 </section>
 
 <footer>
-  <p>Contact: 7006814953</p>
+  <p>Contact: 7006905685</p>
 </footer>
 
 <script src="script.js"></script>
